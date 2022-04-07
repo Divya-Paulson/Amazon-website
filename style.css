@@ -1,0 +1,341 @@
+.nav-belt {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(19 25 33);
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 60px;
+    width: 150px;
+    /* padding-left: 6px; */
+    /* padding-right: 8px; */
+}
+
+.nav-centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255 255 255);
+    text-decoration: none;
+}
+
+.btn-2 {
+    margin-right: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    background: rgb(35 47 62);
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.search-input {
+    width: 750px;
+}
+
+.search-icon {
+    background: #F4BB44;
+    height: 45px;
+    width: 50px;
+    border: none;
+}
+
+.nav-fill {
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+}
+
+.signin-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.hello-sign {
+    font-size: 12px;
+}
+
+.acct-list {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dbtn {
+    color: rgb(255 255 255);
+    background: rgb(19 25 33);
+    border: none;
+    /* border-color: rgb(19 25 33); */
+    text-decoration: none;
+}
+
+.all-categ {
+    background: rgb(255 255 255);
+    color: rgb(74, 62, 62);
+    height: 44px;
+    border: none;
+    font-size: small;
+    font-family: inherit;
+}
+
+.nav-main {
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: rgb(35 47 62);
+    align-items: center;
+}
+
+.return-order {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.returns {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.fa-solid {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    color: rgb(0 0 0);
+    font-size: 20px;
+}
+
+.all-icon {
+    color: rgb(233, 225, 225);
+}
+
+.all-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    height: 100%;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: white;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav.opened {
+    width: 365px;
+}
+
+.sidenav.closed {
+    width: 0;
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    /* font-size: 25px; */
+    color: rgb(16 15 15);
+    display: block;
+    transition: 0.3s;
+    line-height: 33px;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #817a7a;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.sidebar-topic {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.sidebar {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.main {
+    background: rgb(234, 237, 237);
+}
+
+
+/* Carousel styles */
+
+.slides-container {
+    width: 100%;
+    height: 600px;
+}
+
+.mySlides {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.slide-img {
+    height: 100%;
+}
+
+.slide-btn {
+    display: flex;
+    justify-content: space-around;
+    margin: -430px;
+}
+
+.slide-prev,
+.slide-next {
+    color: rgb(255 255 255);
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.nextprex-btn {
+    height: 150px;
+    width: 50px;
+    background: none;
+    border: none;
+}
+
+
+/*Section-one styles*/
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 420px;
+    margin: -250px 24px 0 24px;
+    padding: 20px;
+}
+
+.section-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 420px;
+    margin: 25px 24px 0 24px;
+    padding: 20px;
+}
+
+.sub-section {
+    width: 370px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-right: 20px;
+    height: 422px;
+}
+
+.sub-heading {
+    line-height: 49px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.my-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.my-row-item {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-small {
+    width: 147px;
+    height: 115px;
+    margin-right: 20px;
+}
+
+.img-link {}
+
+.small-img-name {
+    font-size: 12px;
+}
+
+.see-more {
+    font-size: 14px;
+    color: rgb(95 158 160);
+    margin-left: -280px;
+    text-decoration: none;
+}
